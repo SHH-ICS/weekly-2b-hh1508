@@ -11,8 +11,9 @@
     
     <?php
     $userName = "";
-    if ( isset( $_POST['radius'] ) ){
-      $radius = $_POST['radius'];
+    if ( isset( $_POST['fname'] ) ){
+      $radius = $_POST['fname'];
+      <p>$radius / 2</p>
     }
     echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
     echo "<p>Area = \n";
